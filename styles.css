@@ -1,12 +1,8 @@
 
 /*
-COLORS
-H1, Get answer button, text in input field: #2B4E80;
 Get answer button disabled: #607AA0;
-Get answer button hover: #1C3455;
-light blue background: #E6ECF4;
-clear button: #DE4841;
 clear button disabled: #D0CDCD
+clear button enabled: #DE4841;
 */
 
 * {
@@ -18,3 +14,78 @@ clear button disabled: #D0CDCD
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+h1 {
+  color: #2B4E80;
+  font-family: 'Life Savers', cursive;
+  font-size: 45px;
+  padding: 3%;
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.q-and-a-box {
+  align-items: center;
+  background-color: #E6ECF4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2%;
+}
+
+.woody {
+  width: 18%;
+}
+
+.eight-ball {
+  margin: 10%;
+  width: 25%;
+}
+
+input {
+  border: none;
+  color: #2B4E80;
+  font-size: 15px;
+  margin-top: 2%;
+  outline: none;
+  padding: 2%;
+  text-align: center;
+  width: 90%;
+}
+
+.get-answer-btn {
+  background-color: #2B4E80;
+  border: none;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  margin-top: 2%;
+  padding: 2%;
+  text-align: center;
+  width: 90%;
+}
+
+.get-answer-btn:hover {
+  background-color: #1C3455;
+  cursor: pointer;
+}
+
+.clear-btn {
+  background-color: #D0CDCD;
+  border: none;
+  color: white;
+  font-size: 15px;
+  margin: 0 0 2% 80%;
+  outline: none;
+  padding: 2%;
+  width: 12%;
+}
+
+.clear-btn:hover {
+  cursor: pointer;
+}
+/*  */
