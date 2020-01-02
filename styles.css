@@ -35,6 +35,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   margin-right: 2%;
+  width: 35%;
 }
 
 .woody {
@@ -61,7 +62,7 @@ input {
   background-color: #2B4E80;
   border: none;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   outline: none;
   margin-top: 2%;
   padding: 2%;
@@ -78,7 +79,7 @@ input {
   background-color: #D0CDCD;
   border: none;
   color: white;
-  font-size: 15px;
+  font-size: 18px;
   margin: 0 0 2% 80%;
   outline: none;
   padding: 2%;
@@ -87,5 +88,30 @@ input {
 
 .clear-btn:hover {
   cursor: pointer;
+}
+
+.user-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 35%;
+  justify-content: center;
+  margin: 10%;
+  width: 90%;
+}
+
+.user-question {
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 1%;
+}
+
+.user-answer {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.hidden {
+  display: none;
 }
 /*  */
