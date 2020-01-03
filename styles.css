@@ -38,6 +38,13 @@ h1 {
   width: 35%;
 }
 
+form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .woody {
   width: 18%;
 }
