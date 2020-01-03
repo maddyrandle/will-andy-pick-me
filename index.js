@@ -40,6 +40,7 @@ function clearInputField() {
 }
 
 function showEightBall() {
+  removeMessage();
   eightBallImage.classList.remove("hidden");
   messageCard.classList.add("hidden");
   clearBtn.classList.remove("active-clear-btn");
@@ -47,4 +48,12 @@ function showEightBall() {
   answerBtn.disabled = true;
 }
 
+function removeMessage() {
+  var question = document.querySelector(".question");
+  var answer = document.querySelector(".random-answer");
+  if (event.target.classList.contains("clear-btn")) {
+    question.remove();
+    answer.remove();
+  }
+}
 //
