@@ -34,7 +34,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 2%;
+  margin-right: 5%;
   width: 35%;
 }
 
@@ -90,7 +90,7 @@ input {
   border: none;
   color: white;
   font-size: 18px;
-  margin: 0 0 2% 80%;
+  margin: 0 0 2% 78%;
   outline: none;
   padding: 2%;
   width: 12%;
@@ -102,6 +102,13 @@ input {
 
 .active-clear-btn {
   background-color: #DE4841;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 0 2% 78%;
+  outline: none;
+  padding: 2%;
+  width: 12%;
 }
 
 .message-card {
@@ -111,7 +118,7 @@ input {
   height: 35%;
   justify-content: center;
   margin: 13% 0 10%;
-  width: 90%;
+  width: 100%;
 }
 
 .question {
@@ -123,6 +130,7 @@ input {
 .random-answer {
   font-weight: bold;
   font-size: 24px;
+  margin-bottom: 9%;
 }
 
 .hidden {
