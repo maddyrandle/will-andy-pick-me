@@ -45,6 +45,7 @@ form {
   width: 100%;
 }
 
+/* IMAGE SIZING */
 .woody {
   width: 18%;
 }
@@ -65,6 +66,7 @@ input {
   width: 90%;
 }
 
+/* BUTTONS */
 .get-answer-btn {
   background-color: #2B4E80;
   border: none;
@@ -95,6 +97,10 @@ input {
 
 .clear-btn:hover {
   cursor: pointer;
+}
+
+.active-clear-btn {
+  background-color: #DE4841;
 }
 
 .user-card {
