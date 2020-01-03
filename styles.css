@@ -28,7 +28,7 @@ h1 {
   justify-content: center;
 }
 
-.q-and-a-box {
+.message-wrapper {
   align-items: center;
   background-color: #E6ECF4;
   display: flex;
@@ -51,7 +51,7 @@ form {
 }
 
 .eight-ball {
-  margin: 10%;
+  margin: 9%;
   width: 25%;
 }
 
@@ -82,6 +82,7 @@ input {
 .get-answer-btn:hover {
   background-color: #1C3455;
   cursor: pointer;
+  transition: .5s;
 }
 
 .clear-btn {
@@ -103,23 +104,23 @@ input {
   background-color: #DE4841;
 }
 
-.user-card {
+.message-card {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 35%;
   justify-content: center;
-  margin: 10%;
+  margin: 13% 0 10%;
   width: 90%;
 }
 
-.user-question {
+.question {
   font-style: italic;
   font-size: 20px;
   margin-bottom: 1%;
 }
 
-.user-answer {
+.random-answer {
   font-weight: bold;
   font-size: 24px;
 }
